@@ -1,0 +1,178 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    font-family: 'Poppins';
+}
+
+body {
+    background-image: url(./assets/main.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 730px;
+}
+
+
+/* Navbar   */
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 60px 0px;
+}
+
+.container {
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.list {
+    display: flex;
+    margin-left: 250px;
+    width: 80%;
+    margin-top: 13px;
+}
+
+.list-items {
+    list-style: none;
+    margin-left: 45px;
+    font-size: 1.1rem;
+}
+
+.call {
+    display: flex;
+    margin-left: -10px;
+    padding: 12px;
+}
+
+.call img {
+    margin-right: 10px;
+    filter: invert(1);
+    margin-top: -25px;
+}
+
+.call p {
+    margin-top: -7px;
+}
+
+.line {
+    width: 62%;
+    margin-left: 410px;
+    margin-top: -50px;
+}
+
+
+/* First Section  */
+
+.first-heading {
+    position: absolute;
+    top: 37%;
+    left: 10%;
+    width: 42%;
+    font-size: 2.2rem;
+}
+
+.btn {
+    position: absolute;
+    top: 69%;
+    left: 10%;
+}
+
+.btn button {
+    padding: 15px 40px;
+    font-size: 1.5rem;
+    border-radius: 30px;
+    background-color: transparent;
+    border-color: #fff;
+}
+
+
+/* s1 Section   */
+
+.s1 {
+    border: 2px solid transparent;
+    width: 17%;
+    position: absolute;
+    left: 65%;
+    top: 33%;
+    padding: 20px 20px;
+    background-color: #ffffff1f;
+}
+
+.s1 .logo1 {
+    background-color: #fff;
+    padding: 1px 32px;
+    transform: scaleX(-1);
+    border-radius: 30px;
+    width: 5%;
+    margin-bottom: 10px;
+}
+
+.s1 .logo1 img {
+    margin-left: -4px;
+    margin-top: 5px;
+}
+
+.line1 {
+    border-top: 2px solid #ffffff1f;
+    width: 25%;
+    position: absolute;
+    top: 125%;
+    left: 56%;
+    transform: rotate(90deg);
+}
+
+.circle1 {
+    border: 2px solid #fff;
+    border-radius: 100%;
+    position: absolute;
+    top: 138%;
+    left: 65.1%;
+    width: 5%;
+    height: 10%;
+    background-color: #fff;
+}
+
+
+/* s2 Section  */
+
+.s2 {
+    border: 2px solid transparent;
+    width: 17%;
+    position: absolute;
+    left: 45%;
+    top: 70%;
+    padding: 20px 20px;
+    background-color: #ffffff1f;
+}
+
+.s2 .logo2 {
+    background-color: #fff;
+    padding: 0px 38px;
+    border-radius: 30px;
+    width: 4%;
+    margin-bottom: 10px;
+}
+
+.s2 .logo2 img {
+    margin-left: -10px;
+    margin-top: 5px;
+}
+
+.line2 {
+    border-top: 2px solid #ffffff1f;
+    width: 25%;
+    position: absolute;
+    top: 40%;
+    left: 100.9%;
+}
+
+.circle2 {
+    border: 2px solid #fff;
+    border-radius: 100%;
+    position: absolute;
+    top: 34%;
+    left: 120%;
+    width: 5%;
+    height: 10%;
+    background-color: #fff;
+}
